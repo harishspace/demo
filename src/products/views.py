@@ -15,7 +15,8 @@ from .forms import VariationInventoryFormSet, ProductFilterForm
 from .mixins import StaffRequiredMixin
 from .models import Product, Variation, Category
 
-
+def ex():
+	pass
 
 class CategoryListView(ListView):
 	model = Category
